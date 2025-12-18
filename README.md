@@ -1,38 +1,24 @@
-# vue-project
+Проект представляет собой генератор расслабляющей музыки с 8 ползунками:
+1) Общая громкость - регулирует громкость на всём сайте
+2) - 7) Предустановленные звуки (дождь, кафе, дельта волны, камин, Lo-Fi, лес)
+8) Своя музыка
 
-This template should help get you started developing with Vue 3 in Vite.
+Все звуки берутся с ютуба (При проверке работоспособности проверьте доступность ютуба)
+Звуки могут долго подгружаться из-за рекламы, советую подождать
 
-## Recommended IDE Setup
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+**Требования к проекту по Vue:**
+  Технические требования:
+    SPA приложение с 2+ страницами и внутренним роутингом ✓ (2 страницы - микшер и о проекте)
+    Должен быть общий layout (header, footer, sidebar или хотя бы один из них) ✓ (header, footer)
+    Необходимо продемонстрировать умение пользоваться инструментами, предоставляемыми vue:
+      обработчиками событий ✓
+      директивами (:class, :style тоже считается) ✓
+      рендеринг по условию, рендеринг списков (v-if, v-for) ✓
+      props, emits ✓
+      computed ✓ (Вычисление количества звуков)
+      (использование каждого из перечисленных инструментов необязательно, если в них не будет необходимости)
 
-## Recommended Browser Setup
+Правильное разбиение на компоненты, изолированных внутренней логикой ✓
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
